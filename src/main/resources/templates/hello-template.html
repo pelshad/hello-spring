@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--  hello!empty의 경우 서버를 열었을때는 보이지 않지만 html파일 우클릭 copy - Absolute Path로-->
+<!--  주소를 얻어 창을 열면 p태그의 내용이 나온다. -->
+<!--  * 실재 서버에서는 th:text의 내용이 나옴-->
+  <p th:text="'hello ' + ${name}">hello! empty</p>
+</body>
+</html>
